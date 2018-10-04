@@ -4,6 +4,7 @@ no_arg <- function(){                                                           
   clean_data <- raw_data
   drop <- c("SUMLEV","REGION","DIVISION","STATE")                                 #are deleted from the data frame.
   clean_data <- clean_data[,!(colnames(clean_data) %in% drop)]                          # %%%%****I am having a doubt regarding this step and while calling the function, the doubt is mentioned below.
+  clean_data <- clean_data[!(clean_data$NAME=="United States" | clean_data$NAME=="Puerto Rico Commonwealth"),]
 }
 
 dfStates <- no_arg() 
