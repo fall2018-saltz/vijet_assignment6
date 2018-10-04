@@ -30,12 +30,17 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "vijetmuley",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "name": "data.csv"
+        },
+        {
+            "name": "hits_pop.png"
         }
     ],
-    "updated_at": "2018-10-04 15:35:56",
+    "updated_at": "2018-10-04 16:16:31",
     "url": "https://github.com/fall2018-saltz/vijet_assignment6"
 }
