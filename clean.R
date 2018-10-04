@@ -13,5 +13,3 @@ print(dfStates)
 
 arrest <- USArrests
 print(head(arrest))
-merged <- merge(dfStates,arrest,sort=FALSE)
-print(merged)
