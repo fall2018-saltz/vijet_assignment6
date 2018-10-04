@@ -10,3 +10,5 @@ no_arg <- function(){                                                           
 dfStates <- no_arg() 
 str(dfStates)
 print(dfStates)
+
+arrest <- USArrests
