@@ -15,3 +15,4 @@ arrest <- USArrests
 print(head(arrest))
 merged <- merge(dfStates, arrest, by.x="NAME",by.y="row.names",all=TRUE)
 print(merged)
+str(merged)
