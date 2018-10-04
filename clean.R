@@ -12,3 +12,4 @@ str(dfStates)
 print(dfStates)
 
 arrest <- USArrests
+print(head(arrest))
