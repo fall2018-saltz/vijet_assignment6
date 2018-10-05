@@ -15,4 +15,4 @@ arrest <- USArrests
 print(head(arrest))
 merged <- merge(dfStates, arrest, by.x="NAME",by.y="row.names",all=TRUE)
 
-g_pop <- 
+g_pop <- ggplot(merged,aes(POPESTIMATE2017,colour=NAME))+geom_point()
