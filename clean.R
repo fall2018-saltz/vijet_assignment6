@@ -46,7 +46,7 @@ my_list <- factor(1)                                                            
 g_box <- ggplot(merged,aes(x=my_list,y=POPESTIMATE2017))+geom_boxplot()                                          #After passing the data frame and parameters through ggplot, we are plotting a box plot using geom_boxplot(). As per the 'aes' in ggplot, 'my_list'(vector with 1) is to be plotted on X-axis and Population on Y-axis.
 g_box
 
-g_murder <- merged %>% filter(!is.na(Murder))                                                                    #Only with this plot we won't get the warning of removal of a row, because we are explicitly removing the row with 'Murder' field equal to 'NA'.
+#g_murder <- merged %>% filter(!is.na(Murder))                                                                    #Only with this plot we won't get the warning of removal of a row, because we are explicitly removing the row with 'Murder' field equal to 'NA'.
 g_box1 <- ggplot(g_murder,aes(x=my_list,y=Murder))+geom_boxplot()                                                 #Same as the previous box plot, just the difference is that the Y-axis now plots Murder rate and not population.
 g_box1
 
