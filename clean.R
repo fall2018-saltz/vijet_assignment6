@@ -35,6 +35,9 @@ g_pop1
 g_pop2 <- ggplot(merged, aes(Assault))+geom_histogram(fill='red',colour='black')
 g_pop2
 
+g_pop1 <- ggplot(merged, aes(UrbanPop))+geom_histogram(fill='red',colour='black')
+g_pop1
+
 #I felt no need to make nay adjustments o the scales in order to improve the quality of visualization with these histograms.
 
 #------------------------------------------------------------------------------------------------------
