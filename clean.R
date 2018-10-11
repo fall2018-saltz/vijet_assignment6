@@ -79,10 +79,10 @@ g_bar2 <- g_bar2+geom_col()+ggtitle("Total Muders")
 g_bar2 <- g_bar2+theme(axis.text.x=element_text(angle=90,hjust=1))+xlab("States")+ylab("Number of Murders")+theme(plot.title=element_text(hjust=0.5,colour="black",size=14))
 g_bar2
 
-g_bar2 <- ggplot(merged, aes(x=reorder(NAME, -Murder), y=n_of_murders,fill=PCNT_POPEST18PLUS))                   #Same as previous, just that the bars are filled by the % of population above 18 years of age
-g_bar2 <- g_bar2+geom_col()+ggtitle("Total Muders")
-g_bar2 <- g_bar2+theme(axis.text.x=element_text(angle=90,hjust=1))+xlab("States")+ylab("Number of Murders")+theme(plot.title=element_text(hjust=0.5,colour="black",size=14))
-g_bar2
+g_bar3 <- ggplot(merged, aes(x=reorder(NAME, -Murder), y=n_of_murders,fill=PCNT_POPEST18PLUS))                   #Same as previous, just that the bars are filled by the % of population above 18 years of age
+g_bar3 <- g_bar3+geom_col()+ggtitle("Total Muders")
+g_bar3 <- g_bar3+theme(axis.text.x=element_text(angle=90,hjust=1))+xlab("States")+ylab("Number of Murders")+theme(plot.title=element_text(hjust=0.5,colour="black",size=14))
+g_bar3
 #------------------------------------------------------------------------------------------------------
 
 scatter <- ggplot(merged,aes(x=POPESTIMATE2017,y=POPEST18PLUS2017,color=Murder,size=Murder))+geom_point()        #Scatter plot, with Population on X axis, population above 18 on Y axis and the circles(plot points) attributed in size and color by the murder rate of each state.
