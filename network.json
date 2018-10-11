@@ -113,6 +113,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g_pop2",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "hist3.png"
         }
     ],
     "nodes": [
@@ -158,6 +168,6 @@
             "name": "hist3.png"
         }
     ],
-    "updated_at": "2018-10-11 15:46:48",
+    "updated_at": "2018-10-11 15:47:30",
     "url": "https://github.com/fall2018-saltz/vijet_assignment6"
 }
