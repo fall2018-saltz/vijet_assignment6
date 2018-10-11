@@ -38,8 +38,8 @@ g_pop2
 g_pop3 <- ggplot(merged, aes(UrbanPop))+geom_histogram(fill='red',colour='black')
 g_pop3
 
-g_pop3 <- ggplot(merged, aes(Rape))+geom_histogram(fill='red',colour='black')
-g_pop3
+g_pop4 <- ggplot(merged, aes(Rape))+geom_histogram(fill='red',colour='black')
+g_pop4
 
 #I felt no need to make nay adjustments o the scales in order to improve the quality of visualization with these histograms.
 
