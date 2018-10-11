@@ -103,6 +103,16 @@
             ],
             "source": "clean.R",
             "target": "bar4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatter",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "scatter.png"
         }
     ],
     "nodes": [
@@ -145,6 +155,6 @@
             "name": "scatter.png"
         }
     ],
-    "updated_at": "2018-10-11 04:57:08",
+    "updated_at": "2018-10-11 04:57:21",
     "url": "https://github.com/fall2018-saltz/vijet_assignment6"
 }
