@@ -153,8 +153,11 @@
         },
         {
             "name": "scatter.png"
+        },
+        {
+            "name": "hist3.png"
         }
     ],
-    "updated_at": "2018-10-11 15:03:21",
+    "updated_at": "2018-10-11 15:46:48",
     "url": "https://github.com/fall2018-saltz/vijet_assignment6"
 }
