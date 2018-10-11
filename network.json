@@ -88,8 +88,11 @@
         },
         {
             "name": "box_murder.png"
+        },
+        {
+            "name": "bar1.png"
         }
     ],
-    "updated_at": "2018-10-11 04:54:59",
+    "updated_at": "2018-10-11 04:55:17",
     "url": "https://github.com/fall2018-saltz/vijet_assignment6"
 }
