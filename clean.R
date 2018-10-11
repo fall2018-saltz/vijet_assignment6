@@ -1,4 +1,5 @@
 
+library(tidyverse)
 library(ggplot2)
 no_arg <- function(){                                                             #Creating a function to make sure that all the columns except those mentioned in the vector 'drop'
   clean_data <- raw_data
