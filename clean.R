@@ -90,6 +90,7 @@ scatter <- ggplot(merged,aes(x=POPESTIMATE2017,y=POPEST18PLUS2017,color=Murder,s
 scatter
 
 g_pop2 <- scatter
+g_pop4 <- scatter
 #------------------------------------------------------------------------------------------------------
 #NOTE to the grader: Every time I run my plots(except for box plot for 'Murder rates' i.e. 'Murder' column of merged data frame) it will give a warning: 1 entry removed. The entry is for 'District of Columbia', for it had no row in the USarrest table. So in the merged data frame, 
 #the values for the columns pertaining to the USarrest data set are set to NA for 'District of Columbia' and that is why that row is dropped while running plots.
