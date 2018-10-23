@@ -89,6 +89,7 @@ g_bar3
 scatter <- ggplot(merged,aes(x=POPESTIMATE2017,y=POPEST18PLUS2017,color=Murder,size=Murder))+geom_point()        #Scatter plot, with Population on X axis, population above 18 on Y axis and the circles(plot points) attributed in size and color by the murder rate of each state.
 scatter
 
+g_pop2 <- scatter
 #------------------------------------------------------------------------------------------------------
 #NOTE to the grader: Every time I run my plots(except for box plot for 'Murder rates' i.e. 'Murder' column of merged data frame) it will give a warning: 1 entry removed. The entry is for 'District of Columbia', for it had no row in the USarrest table. So in the merged data frame, 
 #the values for the columns pertaining to the USarrest data set are set to NA for 'District of Columbia' and that is why that row is dropped while running plots.
