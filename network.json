@@ -1,0 +1,199 @@
+{
+    "collaborators": [
+        "vijetmuley"
+    ],
+    "created_at": "2018-10-04 15:12:50",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g_pop",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "hits_pop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g_pop1",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "hist_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g_box",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "box_pop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g_box1",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "box_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g_bar",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "bar1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g_bar1",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "bar2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g_bar2",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "bar3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g_bar3",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "bar4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatter",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "scatter.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "dfStates",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g_pop2",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "hist3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g_pop4",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "hist4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g_pop4",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "hist5.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "vijetmuley",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "name": "hits_pop.png"
+        },
+        {
+            "name": "hist_murder.png"
+        },
+        {
+            "name": "box_pop.png"
+        },
+        {
+            "name": "box_murder.png"
+        },
+        {
+            "name": "bar1.png"
+        },
+        {
+            "name": "bar2.png"
+        },
+        {
+            "name": "bar3.png"
+        },
+        {
+            "name": "bar4.png"
+        },
+        {
+            "name": "scatter.png"
+        },
+        {
+            "name": "hist3.png"
+        },
+        {
+            "name": "hist4.png"
+        },
+        {
+            "name": "hist5.png"
+        }
+    ],
+    "updated_at": "2018-10-11 15:50:21",
+    "url": "https://github.com/fall2018-saltz/vijet_assignment6"
+}
